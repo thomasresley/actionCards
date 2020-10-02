@@ -1,0 +1,35 @@
+{
+  "id": "com.resktech.projectx.vehicleRegister.thomas",
+  "schemaVersion": 1,
+  "displayName": "Register Vehicle",
+  "providerName": "Thomas",
+  "icon": "download.png",
+  "version": "1",
+  "minorVersion": "1",
+  "appModel": "AppModel.json",
+  "description": "Vehicle Registered",
+  "dials": {
+    "isLocalised": false,
+    "isPinned": false
+  },
+  "actionScope": "Group",
+  "views": {
+    "ChatCanvasCardView": {
+      "showReceipts": false,
+      "showLikes": false,
+      "showComments": false,
+      "labelResponseSending": "Sending your resposne",
+      "labelResponseFailed": "Failed sending your response",
+      "labelResponded": "Vehicle Registered",
+      "isResponseEditable": true
+    },
+    "CreationView": {
+      "sourceLocation": "Response.html",
+      "showNativeToolbar": false
+    },
+    "ResponseResultsView": {
+      "sourceLocation": "ResponseSummary.html",
+      "showNativeToolbar": false
+    }
+  }
+}

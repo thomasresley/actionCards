@@ -1,0 +1,48 @@
+{
+  "title": "Report Incident",
+  "visibility": "All",
+  "expiry": 4070908800000,
+  "isAnonymous": false,
+  "isResponseAppended": true,
+  "isLocationRequested": false,
+  "questions": [
+    {
+      "title": "VehicleReg",
+      "type": "Text"
+    },
+    {
+      "title": "Type",
+      "type": "SingleSelect",
+      "options": [{
+          "title": "Puncture"
+        },
+        {
+          "title": "Breakdown"
+        },        
+        {
+          "title": "CityCouncil"
+        }
+      ]
+    },
+    {
+      "title": "Comments",
+      "type": "Text"
+    },
+    {
+      "title": "Name",
+      "type": "Text"
+    },
+    {
+      "title": "Phone No",
+      "type": "Text"
+    },
+    {
+      "title": "Location",
+      "type": "Location"
+    },
+    {
+      "title": "Response Time",
+      "type": "DateTime"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "com.resktech.projectx.endtrip.thomas",
+  "schemaVersion": 1,
+  "displayName": "End Trip",
+  "providerName": "Thomas",
+  "icon": "download.png",
+  "version": "1",
+  "minorVersion": "6",
+  "appModel": "AppModel.json",
+  "description": "End Trip",
+  "dials": {
+    "isLocalised": false,
+    "isPinned": false
+  },
+  "actionScope": "Group",
+  "views": {
+    "ChatCanvasCardView": {
+      "showReceipts": false,
+      "showLikes": false,
+      "showComments": false,
+      "labelResponseSending": "Sending your resposne",
+      "labelResponseFailed": "Failed sending your response",
+      "labelResponded": "Trip completed",
+      "isResponseEditable": true
+    },
+    "CreationView": {
+      "sourceLocation": "Response.html",
+      "showNativeToolbar": false
+    },
+    "ResponseResultsView": {
+      "sourceLocation": "ResponseSummary.html",
+      "showNativeToolbar": false
+    }
+  },  
+  "externalUrls":[
+    {
+      "url":"https://kaizaladev.azurewebsites.net/"
+    },
+    {
+      "url":"https://intense-taiga-44684.herokuapp.com/"
+    }
+  ]
+}

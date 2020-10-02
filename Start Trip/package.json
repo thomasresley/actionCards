@@ -1,0 +1,44 @@
+{
+  "id": "com.resktech.projectx.trip.thomas",
+  "schemaVersion": 1,
+  "displayName": "Start Trip",
+  "providerName": "Thomas",
+  "icon": "download.jpg",
+  "version": "2",
+  "minorVersion": "33",
+  "appModel": "AppModel.json",
+  "description": "Start Trip",
+  "dials": {
+    "isLocalised": false,
+    "isPinned": false
+  },
+  "actionScope": "Group",
+  "views": {
+    "ChatCanvasCardView": {
+      "showReceipts": false,
+      "showLikes": false,
+      "showComments": false,
+      "labelResponseSending": "Starting your trip",
+      "labelResponseFailed": "Failed to start trip",
+      "labelResponded": "Trip started and ongoing",
+      "labelResponseFinished": "Trip completed",
+      "isResponseEditable": false
+    },
+    "CreationView": {
+      "sourceLocation": "Response.html",
+      "showNativeToolbar": false
+    },
+    "ResponseResultsView": {
+      "sourceLocation": "ResponseSummary.html",
+      "showNativeToolbar": false
+    }
+  },
+  "externalUrls":[
+    {
+      "url":"https://kaizaladev.azurewebsites.net/"
+    },
+    {
+      "url":"https://intense-taiga-44684.herokuapp.com/"
+    }
+  ]
+}
